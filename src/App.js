@@ -26,7 +26,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
+    <h1 style={{ textAlign: 'center' }}>No goals found. Maybe add one?</h1>
   );
 
   if (courseGoals.length > 0) {
